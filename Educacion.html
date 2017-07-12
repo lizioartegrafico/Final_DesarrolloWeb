@@ -29,8 +29,61 @@
       <li><strong>Apellido: Lizio</strong></li>
       <li><strong>Edad: 42</strong></li>
     </Ul>
-      <h3>Educación</h3>
+      <h2>Educación</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culminó?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1992</td>
+              <td>Escuela - Las Mercedes</td>
+              <td>Unquillo - Córdoba - Argentina</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>1996</td>
+              <td>IES - Diseño Graáfico</td>
+              <td>Córdoba - Argentina</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>1995</td>
+              <td>La Metro - Fotografía</td>
+              <td>Córdoba - Argentina</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2017</td>
+              <td>Next U</td>
+              <td>Por web</td>
+              <td>No</td>
+            </tr>
+          </tbody>
+        </table>
+        <form name="AgregarEstudios" autocomplete="on">
+            <h2><legend>Agregar Estudios</legend></h2>
+            <label for="year">Año:</label>
+            <input type="date" ></br>
+            <br>
+            <label for="Institucion"><strong>Institución:</strong></label>
+            <input type="text"></br>
+            <br>
+            <label for="lugar"><strong>Lugar:</strong></label>
+            <textarea name="name" rows="8" cols="40"></textarea></br>
+            <br>
+            <label for="culmino"><strong>¿Culminó?:</strong></label>
+            <input type="radio" id="alternativa"><b>Si</b>
+            <input type="radio" id="alternativa"><b>No</b></br>
+            <br>
+            <input type="submit" value="Enviar">
 
+        </form>
     </section>
     <footer>
       <p>@ Derechos Reservados</p>
