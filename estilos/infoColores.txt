@@ -1,0 +1,4 @@
+Logo colores
+Verde petroleo = #038599ff
+bordo claro= #b88990ff
+bordo= #bf1a4bff
